@@ -1,5 +1,5 @@
 <script>
-	import Avatar from '../ui/avatar/avatar.svelte';
+	import Avatar from './ui/avatar/avatar.svelte';
 </script>
 
 <nav class="top-0 z-10 mt-0 h-[78px] w-[100vw] bg-transparent px-2 md:px-5">
@@ -17,7 +17,7 @@
 			</div>
 		</div>
 		<ul
-			class="hidden items-center justify-between gap-[45px] pl-[8px] text-[16px] font-thin subpixel-antialiased lg:flex transition-all"
+			class="hidden items-center justify-between gap-[45px] pl-[8px] text-[16px] font-thin subpixel-antialiased transition-all lg:flex"
 			role="navigation"
 		>
 			<li>
@@ -42,14 +42,14 @@
 				>
 			</li>
 		</ul>
-		<div class="md: hidden md:flex md:pr-[6px]">
+		<div class="hidden md:flex md:pr-[6px]">
 			<Avatar />
 		</div>
 		<div
 			class=" fixed right-[-450px] top-0 flex h-[100vh] w-full max-w-[450px] flex-col items-center justify-center text-center text-4xl active:right-0"
 			id="offScreenMenu"
 		></div>
-		<div class="ham-menu @click:toggleMenu relative ml-auto h-[50px] w-[50px] md:hidden">
+		<div class="ham-menu @click:toggleMenu relative ml-auto h-[50px] w-[50px] pl-[2px] md:hidden">
 			<span
 				class="absolute top-[35%] h-[2px] w-[24px] -translate-y-[50%] translate-x-[50%] rounded-md bg-[var(--burger-bar)]"
 			></span>
@@ -70,21 +70,17 @@
 		--navBg: #transparent;
 		--logoText: #ff385c;
 	}
-
+˚f
 	.ham-menu:active span:nth-of-type(1) {
 		transform: rotate(45deg) translate(50%, -60%);
-		transition: all 0.3s ease-in-out;
+		transition: all 0.4s ease-in-out;
 	}
 	.ham-menu:active span:nth-of-type(2) {
 		opacity: 0;
-		transition: all 0.3s ease-in-out;
+		transition: all 0.2s ease-in-out;
 	}
 	.ham-menu:active span:nth-of-type(3) {
 		transform: rotate(-45deg) translate(50%, 60%);
-		transition: all 0.3s ease-in-out;
-	}
-
-	.ham-menu:active {
-		padding-left: 0px;
+		transition: all 0.4s ease-in-out;
 	}
 </style>

@@ -10,5 +10,5 @@
 	<slot />
 </main>
 <footer>
-	
+	<p><span class="text-[32px] h-full">&ddagger;</span> 2024</p>
 </footer>

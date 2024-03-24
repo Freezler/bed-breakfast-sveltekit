@@ -1,6 +1,6 @@
 <script>
 	import '../app.pcss';
-	import Navbar from '$lib/components/Navbar.svelte';
+	import Navbar from '$lib/components/Navbar/Navbar.svelte';
 </script>
 
 <header class="bg-[var(--navBg)]">
@@ -10,5 +10,5 @@
 	<slot />
 </main>
 <footer>
-	
+	<p><span>ul></span>&ddagger; 2024</p>
 </footer>
