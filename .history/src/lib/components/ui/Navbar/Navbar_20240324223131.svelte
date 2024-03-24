@@ -1,0 +1,23 @@
+<script>
+	import OffscreenMenu from './OffscreenMenu.svelte';
+	import Hamburger from './Hamburger.svelte';
+	import NavItems from './NavItems.svelte';
+	import Logo from './Logo.svelte';
+	import Avatar from '../avatar/avatar.svelte';
+</script>
+
+<nav class="top-0 z-10 mt-0 h-[78px] w-[100vw] bg-transparent px-[14px] md:px-5">
+	<div class=" flex h-full max-w-full flex-row items-center justify-between">
+		<Logo class="pl" />
+
+		<NavItems />
+
+		<Avatar />
+
+		<Hamburger />
+	</div>
+</nav>
+<hr />
+
+<style>
+</style>
