@@ -1,0 +1,7 @@
+<script>
+	import Button from '$lib/components/ui/button/button.svelte';
+</script>
+header
+<h1>Welcome to myApp</h1>
+<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<Button variant="outline" size="sm" class="my-4 hover:bg-fuchsia-400 hover:text-white">Click me</Button>

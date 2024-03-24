@@ -1,0 +1,29 @@
+<script>
+	import Avatar from "../ui/avatar/avatar.svelte";
+</script>
+
+<nav class="top-0 z-10 mt-0 w-full bg-gray-800 p-2">
+	<div class="container mx-auto flex flex-row items-center justify-center">
+		<div class="flex w-[60px] justify-start font-extrabold text-white py-2">
+			<a href="/#" class="bg-red-500">
+				yoyo
+				
+			</a>
+            
+		</div>
+		<ul class="topNav flex items-center gap-2">
+            <li><a href="/#">Home</li>
+            <li><a href="/#">About</li>
+            <li><a href="/#">Contact</li>
+        </ul><div></div>
+        <Avatar />
+	</div>
+</nav>
+
+<style>
+	:root {
+		--navText: hsla(226, 8%, 58%, 0.6);
+		--navBg: #transparent;
+		--lightest-navy: #233554;
+	}
+</style>
