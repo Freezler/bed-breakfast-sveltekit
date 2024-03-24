@@ -1,0 +1,17 @@
+<script>
+	import Avatar from '../Avatar/avatar.svelte';
+</script>
+
+<nav class="top-0 z-10 mt-0 h-[60px] w-[100vw] bg-transparent px-2 md:px-6 flex flex-row items-center justify-between">
+    <div class=" flex h-full max-w-full flex-row items-center justify-start">
+        <Avatar />
+        <Avatar />
+    </div>
+    <div class="md:flex md:pr-[6px] justify-end">
+        <span class="icon-[mingcute--filter-line]"></span>
+    </div>
+</nav>
+<hr />
+
+<style>
+</style>

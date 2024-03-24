@@ -17,7 +17,7 @@
 			</div>
 		</div>
 		<ul
-			class="hidden items-center justify-between gap-[45px] pl-[8px] text-[16px] font-thin subpixel-antialiased transition-all lg:flex"
+			class="hidden items-center justify-between gap-[45px] pl-[8px] text-[16px] font-thin subpixel-antialiased transition-[all-200] lg:flex"
 			role="navigation"
 		>
 			<li>

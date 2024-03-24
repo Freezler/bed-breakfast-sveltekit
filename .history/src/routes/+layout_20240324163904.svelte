@@ -6,7 +6,7 @@
 
 <header class="bg-[var(--navBg)]">
 	<Navbar />
-	<Searchbar />
+	<Searchbar
 </header>
 <main class="mt-20">
 	<slot />
