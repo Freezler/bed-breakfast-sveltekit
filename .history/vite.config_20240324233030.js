@@ -9,7 +9,7 @@ import { defineConfig } from 'vite';
 export default {
 	plugins: [sveltekit()],
 	kit: {
-		adapter: 'vercel',
+		adapter: adapter-auto()
 	},
 	resolve: {
 		alias: {
