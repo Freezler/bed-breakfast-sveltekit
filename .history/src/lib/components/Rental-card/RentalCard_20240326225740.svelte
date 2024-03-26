@@ -7,20 +7,20 @@
 </script>
 
 <div
-	class="mt-[12px] grid h-[418px] place-self-center rounded-b-2xl w-[100vw] rounded-t-2xl border-[1px] border-gray-400 shadow-lg md:grid-rows-[1fr_1fr_1fr_1fr] max-w-[98vw]  md:w-[600px] md:max-w-full "
+	class="mt-[12px] grid h-[418px] place-self-center rounded-b-2xl rounded-t-2xl border-[1px] border-gray-400 shadow-lg md:grid-rows-[1fr_1fr_1fr] max-w-[400px] w-[95vw] md:w-[400px] md:max-w-full"
 >
 	<img
 		class=" h-40 w-full rounded-t-2xl object-cover object-center aspect-video"
 		src={rentalObject.images[0]}
 		alt={rentalObject.name}
 	/>
-	<div class="  grid-cols-1  pl-4 w-full h-9 ">
+	<div class="grid-rows-sub grid  grid-cols-1 grid-rows-2 pl-4 w-full h-9 ">
 		<h3 class=" text-sm font-semibold">{rentalObject.name}</h3>
-		<p class="w-[25ch] p-0 text-[--navText] h-[2ch] text-balance text-xs text-[gray]">
+		<p class="w-[34ch] p-0 truncate row-span-2 text-[--navText] h-[2ch] text-balance text-xs text-[gray]">
 			{rentalObject.address}
 		</p>
 	</div>
-	<div class="grid grid-flow-row grid-cols-2 md:grid-cols-1 justify-self-between md:mt-8 justify-center items-center ">
+	<div class="grid grid-flow-row grid-cols-2  justify-self-between justify-center items-center ">
 		<p class="col-span-1 row-span-1 p-0 text-center text-xs font-normal">
 			<span class="text-pretty text-xl text-[--logoText]">${rentalObject.price_per_night}</span> / night
 		</p>

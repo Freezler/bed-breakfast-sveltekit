@@ -12,7 +12,7 @@
 	<Searchbar />
 </header>
 
-<main class="grid grid-rows-[1fr] grid-cols-[1fr] md:grid-rows-[1fr] md:grid-cols-[84px_450px]">
+<main class="grid grid-rows-[1fr] grid-cols-[] md:grid-rows-[1fr] md:grid-cols-[84px_450px]">
 	<IconBar />
 	<HomeOverview />
 </main>

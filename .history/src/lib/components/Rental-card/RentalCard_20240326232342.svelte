@@ -20,7 +20,7 @@
 			{rentalObject.address}
 		</p>
 	</div>
-	<div class="grid grid-flow-row grid-cols-2 md:grid-cols-1 justify-self-between md:mt-8 justify-center items-center ">
+	<div class="grid grid-flow-row grid-cols-2 justify-self-center justify-center items-center ">
 		<p class="col-span-1 row-span-1 p-0 text-center text-xs font-normal">
 			<span class="text-pretty text-xl text-[--logoText]">${rentalObject.price_per_night}</span> / night
 		</p>

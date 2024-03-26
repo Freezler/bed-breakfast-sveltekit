@@ -14,13 +14,13 @@
 		src={rentalObject.images[0]}
 		alt={rentalObject.name}
 	/>
-	<div class="  grid-cols-1  pl-4 w-full h-9 ">
+	<div class="grid-tem  grid-cols-1  pl-4 w-full h-9 ">
 		<h3 class=" text-sm font-semibold">{rentalObject.name}</h3>
 		<p class="w-[25ch] p-0 text-[--navText] h-[2ch] text-balance text-xs text-[gray]">
 			{rentalObject.address}
 		</p>
 	</div>
-	<div class="grid grid-flow-row grid-cols-2 md:grid-cols-1 justify-self-between md:mt-8 justify-center items-center ">
+	<div class="grid grid-flow-row grid-cols-2  justify-self-between justify-center items-center ">
 		<p class="col-span-1 row-span-1 p-0 text-center text-xs font-normal">
 			<span class="text-pretty text-xl text-[--logoText]">${rentalObject.price_per_night}</span> / night
 		</p>
