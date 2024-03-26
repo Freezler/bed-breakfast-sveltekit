@@ -3,7 +3,7 @@
 	import Searchbar from '../lib/components/ui/Searchbar/Searchbar.svelte';
 	import Navbar from '../lib/components/ui/Navbar/Navbar.svelte';
 	import IconBar from '../lib/components/ui/Iconbar/Iconbar.svelte';
-	
+	import Card from '../lib/components/ui/Card/Card.svelte';
 </script>
 
 <header class="bg-[var(--navBg)]">
