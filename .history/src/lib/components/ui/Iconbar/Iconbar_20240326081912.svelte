@@ -3,15 +3,15 @@
 
 <main class="IconbarContainer grid h-[54px] place-items-center justify-center items-center">
 	<div
-		class="IconbarContainer flex w-[100vw] gap-8 overflow-scroll items-center justify-center
+		class="IconbarContainer flex w-[100vw] gap-7 overflow-scroll items-center justify-center
      px-1.5"
 	>
 		<div class="IconWrapper flex items-center justify-center px-2 py-0 h-full">
 			<svg
-			class=" hover:border-b-[3px] hover:border-red-500 "
+			class=" hover:border-b-[3px] hover:border-red-500"
 				xmlns="http://www.w3.org/2000/svg"
 				width="1.2em"
-				height="1.2em"
+				height="1em"
 				viewBox="0 0 24 24"
 				{...$$props}
 			>

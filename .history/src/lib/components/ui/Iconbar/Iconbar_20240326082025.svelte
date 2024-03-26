@@ -3,7 +3,7 @@
 
 <main class="IconbarContainer grid h-[54px] place-items-center justify-center items-center">
 	<div
-		class="IconbarContainer flex w-[100vw] gap-8 overflow-scroll items-center justify-center
+		class="IconbarContainer flex w-[100vw] gap-7 overflow-scroll items-center justify-center
      px-1.5"
 	>
 		<div class="IconWrapper flex items-center justify-center px-2 py-0 h-full">
