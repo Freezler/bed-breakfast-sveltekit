@@ -1,0 +1,1099 @@
+[
+	{
+		"id": "c6e31b28-9250-4713-9526-51d097a77bb7",
+		"name": "Beachfront Villa with Private Pool",
+		"address": "123 Ocean Drive, Seaside Paradise, Countryland",
+		"description": "Enjoy a luxurious beachfront vacation in this stunning villa with a private pool.",
+		"type": "Villa",
+		"rentalType": "Building",
+		"areaType": "Beach",
+		"guests": 8,
+		"bedrooms": 4,
+		"bathrooms": 3,
+		"amenities": [
+			"WiFi",
+			"Air Conditioning",
+			"Heating",
+			"Washing Machine",
+			"Private Pool",
+			"Ocean View",
+			"BBQ Grill"
+		],
+		"parkingSpace": true,
+		"nearestShops": [
+			"Beach Store",
+			"Grocery Shop",
+			"Souvenir Shop"
+		],
+		"nearestEntertainment": [
+			"Beach Bars",
+			"Water Sports"
+		],
+		"additionalServices": [
+			"Airport Pickup",
+			"Private Chef"
+		],
+		"price_per_night": 600,
+		"availability": {
+			"start_date": "2023-10-01",
+			"end_date": "2023-10-10"
+		},
+		"owner": {
+			"name": "Emily Roberts",
+			"email": "emily.roberts@example.com",
+			"phone": "+1122334455"
+		},
+		"images": [
+			"https://images.unsplash.com/photo-1710092821305-d01e36599c15?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"https://example.com/image2.jpg",
+			"https://example.com/image3.jpg"
+		],
+		"reviews": [],
+		"cancellationPolicy": "Strict",
+		"minimumStayDuration": 5,
+		"checkInTime": "14:00",
+		"checkOutTime": "10:00",
+		"languagesSpoken": [
+			"English",
+			"French",
+			"Spanish"
+		],
+		"petsAllowed": false,
+		"smokingPolicy": "No smoking allowed",
+		"accessibility": "Not wheelchair accessible",
+		"securityDeposit": 800,
+		"availableForEvents": false,
+		"childFriendly": true,
+		"nearestPublicTransportation": [
+			"Bus Stop - 0.5 miles"
+		],
+		"localAttractions": [
+			"Water Park",
+			"Boat Tours",
+			"Scuba Diving"
+		],
+		"languagesSupported": [
+			"English",
+			"French",
+			"Spanish"
+		],
+		"userVerification": true
+	},
+	{
+		"id": "a15e9e2c-5325-4b52-83b9-c34cf34d9e29",
+		"name": "Cozy Log Cabin in the Mountains",
+		"address": "789 Mountain View Rd, Alpine Retreat, Countryland",
+		"description": "Unwind in this charming log cabin surrounded by breathtaking mountain views.",
+		"type": "Cabin",
+		"rentalType": "Building",
+		"areaType": "Mountains",
+		"guests": 6,
+		"bedrooms": 3,
+		"bathrooms": 2,
+		"amenities": [
+			"WiFi",
+			"Heating",
+			"Washing Machine",
+			"Fireplace",
+			"Hot Tub"
+		],
+		"parkingSpace": true,
+		"nearestShops": [
+			"Mountain Store"
+		],
+		"nearestEntertainment": [
+			"Hiking Trails",
+			"Ski Resort"
+		],
+		"additionalServices": [],
+		"price_per_night": 200,
+		"availability": {
+			"start_date": "2023-10-15",
+			"end_date": "2023-10-25"
+		},
+		"owner": {
+			"name": "David Anderson",
+			"email": "david.anderson@example.com",
+			"phone": "+9988776655"
+		},
+		"images": [
+			"https://plus.unsplash.com/premium_photo-1663091687045-d108c7fb83e4?q=80&w=2971&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"https://example.com/image2.jpg",
+			"https://example.com/image3.jpg"
+		],
+		"reviews": [],
+		"cancellationPolicy": "Moderate",
+		"minimumStayDuration": 3,
+		"checkInTime": "15:00",
+		"checkOutTime": "11:00",
+		"languagesSpoken": [
+			"English"
+		],
+		"petsAllowed": true,
+		"smokingPolicy": "Smoking allowed",
+		"accessibility": "Not wheelchair accessible",
+		"securityDeposit": 300,
+		"availableForEvents": true,
+		"childFriendly": true,
+		"nearestPublicTransportation": [],
+		"localAttractions": [
+			"Scenic Overlook",
+			"Sledding",
+			"Mountain Biking"
+		],
+		"languagesSupported": [
+			"English"
+		],
+		"userVerification": false
+	},
+	{
+		"id": "13e98ef6-100d-4a16-9d16-c6c4f6e5b998",
+		"name": "Rustic Farmhouse with Countryside Views",
+		"address": "456 Country Road, Farmville, Countryland",
+		"description": "Experience the rustic charm of this farmhouse with picturesque countryside views.",
+		"type": "Farmhouse",
+		"rentalType": "Building",
+		"areaType": "Countryside",
+		"guests": 10,
+		"bedrooms": 5,
+		"bathrooms": 4,
+		"amenities": [
+			"WiFi",
+			"Heating",
+			"Washing Machine",
+			"Garden",
+			"BBQ Grill"
+		],
+		"parkingSpace": true,
+		"nearestShops": [
+			"Farm Market",
+			"Country Store"
+		],
+		"nearestEntertainment": [
+			"Nature Walks",
+			"Fishing Spots"
+		],
+		"additionalServices": [
+			"Farm-to-Table Experience",
+			"Horse Riding"
+		],
+		"price_per_night": 300,
+		"availability": {
+			"start_date": "2023-11-01",
+			"end_date": "2023-11-10"
+		},
+		"owner": {
+			"name": "Jennifer Lee",
+			"email": "jennifer.lee@example.com",
+			"phone": "+7778889990"
+		},
+		"images": [
+			"https://images.unsplash.com/photo-1590520326731-ddeee2bfebf8?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"https://example.com/image2.jpg",
+			"https://example.com/image3.jpg"
+		],
+		"reviews": [],
+		"cancellationPolicy": "Flexible",
+		"minimumStayDuration": 4,
+		"checkInTime": "16:00",
+		"checkOutTime": "10:00",
+		"languagesSpoken": [
+			"English",
+			"Spanish"
+		],
+		"petsAllowed": true,
+		"smokingPolicy": "Smoking allowed",
+		"accessibility": "Not wheelchair accessible",
+		"securityDeposit": 400,
+		"availableForEvents": true,
+		"childFriendly": true,
+		"nearestPublicTransportation": [],
+		"localAttractions": [
+			"Farm Tours",
+			"Historic Sites"
+		],
+		"languagesSupported": [
+			"English",
+			"Spanish"
+		],
+		"userVerification": true
+	},
+	{
+		"id": "c6e31b28-9250-4713-9526-51d097a77bb7",
+		"name": "Beachfront Villa with Private Pool",
+		"address": "123 Ocean Drive, Seaside Paradise, Countryland",
+		"description": "Enjoy a luxurious beachfront vacation in this stunning villa with a private pool.",
+		"type": "Villa",
+		"rentalType": "Building",
+		"areaType": "Beach",
+		"guests": 8,
+		"bedrooms": 4,
+		"bathrooms": 3,
+		"amenities": [
+			"WiFi",
+			"Air Conditioning",
+			"Heating",
+			"Washing Machine",
+			"Private Pool",
+			"Ocean View",
+			"BBQ Grill"
+		],
+		"parkingSpace": true,
+		"nearestShops": [
+			"Beach Store",
+			"Grocery Shop",
+			"Souvenir Shop"
+		],
+		"nearestEntertainment": [
+			"Beach Bars",
+			"Water Sports"
+		],
+		"additionalServices": [
+			"Airport Pickup",
+			"Private Chef"
+		],
+		"price_per_night": 600,
+		"availability": {
+			"start_date": "2023-10-01",
+			"end_date": "2023-10-10"
+		},
+		"owner": {
+			"name": "Emily Roberts",
+			"email": "emily.roberts@example.com",
+			"phone": "+1122334455"
+		},
+		"images": [
+			"https://images.unsplash.com/photo-1710092821305-d01e36599c15?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"https://example.com/image2.jpg",
+			"https://example.com/image3.jpg"
+		],
+		"reviews": [],
+		"cancellationPolicy": "Strict",
+		"minimumStayDuration": 5,
+		"checkInTime": "14:00",
+		"checkOutTime": "10:00",
+		"languagesSpoken": [
+			"English",
+			"French",
+			"Spanish"
+		],
+		"petsAllowed": false,
+		"smokingPolicy": "No smoking allowed",
+		"accessibility": "Not wheelchair accessible",
+		"securityDeposit": 800,
+		"availableForEvents": false,
+		"childFriendly": true,
+		"nearestPublicTransportation": [
+			"Bus Stop - 0.5 miles"
+		],
+		"localAttractions": [
+			"Water Park",
+			"Boat Tours",
+			"Scuba Diving"
+		],
+		"languagesSupported": [
+			"English",
+			"French",
+			"Spanish"
+		],
+		"userVerification": true
+	},
+	{
+		"id": "a15e9e2c-5325-4b52-83b9-c34cf34d9e29",
+		"name": "Cozy Log Cabin in the Mountains",
+		"address": "789 Mountain View Rd, Alpine Retreat, Countryland",
+		"description": "Unwind in this charming log cabin surrounded by breathtaking mountain views.",
+		"type": "Cabin",
+		"rentalType": "Building",
+		"areaType": "Mountains",
+		"guests": 6,
+		"bedrooms": 3,
+		"bathrooms": 2,
+		"amenities": [
+			"WiFi",
+			"Heating",
+			"Washing Machine",
+			"Fireplace",
+			"Hot Tub"
+		],
+		"parkingSpace": true,
+		"nearestShops": [
+			"Mountain Store"
+		],
+		"nearestEntertainment": [
+			"Hiking Trails",
+			"Ski Resort"
+		],
+		"additionalServices": [],
+		"price_per_night": 200,
+		"availability": {
+			"start_date": "2023-10-15",
+			"end_date": "2023-10-25"
+		},
+		"owner": {
+			"name": "David Anderson",
+			"email": "david.anderson@example.com",
+			"phone": "+9988776655"
+		},
+		"images": [
+			"https://plus.unsplash.com/premium_photo-1663091687045-d108c7fb83e4?q=80&w=2971&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"https://example.com/image2.jpg",
+			"https://example.com/image3.jpg"
+		],
+		"reviews": [],
+		"cancellationPolicy": "Moderate",
+		"minimumStayDuration": 3,
+		"checkInTime": "15:00",
+		"checkOutTime": "11:00",
+		"languagesSpoken": [
+			"English"
+		],
+		"petsAllowed": true,
+		"smokingPolicy": "Smoking allowed",
+		"accessibility": "Not wheelchair accessible",
+		"securityDeposit": 300,
+		"availableForEvents": true,
+		"childFriendly": true,
+		"nearestPublicTransportation": [],
+		"localAttractions": [
+			"Scenic Overlook",
+			"Sledding",
+			"Mountain Biking"
+		],
+		"languagesSupported": [
+			"English"
+		],
+		"userVerification": false
+	},
+	{
+		"id": "13e98ef6-100d-4a16-9d16-c6c4f6e5b998",
+		"name": "Rustic Farmhouse with Countryside Views",
+		"address": "456 Country Road, Farmville, Countryland",
+		"description": "Experience the rustic charm of this farmhouse with picturesque countryside views.",
+		"type": "Farmhouse",
+		"rentalType": "Building",
+		"areaType": "Countryside",
+		"guests": 10,
+		"bedrooms": 5,
+		"bathrooms": 4,
+		"amenities": [
+			"WiFi",
+			"Heating",
+			"Washing Machine",
+			"Garden",
+			"BBQ Grill"
+		],
+		"parkingSpace": true,
+		"nearestShops": [
+			"Farm Market",
+			"Country Store"
+		],
+		"nearestEntertainment": [
+			"Nature Walks",
+			"Fishing Spots"
+		],
+		"additionalServices": [
+			"Farm-to-Table Experience",
+			"Horse Riding"
+		],
+		"price_per_night": 300,
+		"availability": {
+			"start_date": "2023-11-01",
+			"end_date": "2023-11-10"
+		},
+		"owner": {
+			"name": "Jennifer Lee",
+			"email": "jennifer.lee@example.com",
+			"phone": "+7778889990"
+		},
+		"images": [
+			"https://images.unsplash.com/photo-1590520326731-ddeee2bfebf8?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"https://example.com/image2.jpg",
+			"https://example.com/image3.jpg"
+		],
+		"reviews": [],
+		"cancellationPolicy": "Flexible",
+		"minimumStayDuration": 4,
+		"checkInTime": "16:00",
+		"checkOutTime": "10:00",
+		"languagesSpoken": [
+			"English",
+			"Spanish"
+		],
+		"petsAllowed": true,
+		"smokingPolicy": "Smoking allowed",
+		"accessibility": "Not wheelchair accessible",
+		"securityDeposit": 400,
+		"availableForEvents": true,
+		"childFriendly": true,
+		"nearestPublicTransportation": [],
+		"localAttractions": [
+			"Farm Tours",
+			"Historic Sites"
+		],
+		"languagesSupported": [
+			"English",
+			"Spanish"
+		],
+		"userVerification": true
+	},
+	{
+		"id": "c6e31b28-9250-4713-9526-51d097a77bb7",
+		"name": "Beachfront Villa with Private Pool",
+		"address": "123 Ocean Drive, Seaside Paradise, Countryland",
+		"description": "Enjoy a luxurious beachfront vacation in this stunning villa with a private pool.",
+		"type": "Villa",
+		"rentalType": "Building",
+		"areaType": "Beach",
+		"guests": 8,
+		"bedrooms": 4,
+		"bathrooms": 3,
+		"amenities": [
+			"WiFi",
+			"Air Conditioning",
+			"Heating",
+			"Washing Machine",
+			"Private Pool",
+			"Ocean View",
+			"BBQ Grill"
+		],
+		"parkingSpace": true,
+		"nearestShops": [
+			"Beach Store",
+			"Grocery Shop",
+			"Souvenir Shop"
+		],
+		"nearestEntertainment": [
+			"Beach Bars",
+			"Water Sports"
+		],
+		"additionalServices": [
+			"Airport Pickup",
+			"Private Chef"
+		],
+		"price_per_night": 600,
+		"availability": {
+			"start_date": "2023-10-01",
+			"end_date": "2023-10-10"
+		},
+		"owner": {
+			"name": "Emily Roberts",
+			"email": "emily.roberts@example.com",
+			"phone": "+1122334455"
+		},
+		"images": [
+			"https://images.unsplash.com/photo-1710092821305-d01e36599c15?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"https://example.com/image2.jpg",
+			"https://example.com/image3.jpg"
+		],
+		"reviews": [],
+		"cancellationPolicy": "Strict",
+		"minimumStayDuration": 5,
+		"checkInTime": "14:00",
+		"checkOutTime": "10:00",
+		"languagesSpoken": [
+			"English",
+			"French",
+			"Spanish"
+		],
+		"petsAllowed": false,
+		"smokingPolicy": "No smoking allowed",
+		"accessibility": "Not wheelchair accessible",
+		"securityDeposit": 800,
+		"availableForEvents": false,
+		"childFriendly": true,
+		"nearestPublicTransportation": [
+			"Bus Stop - 0.5 miles"
+		],
+		"localAttractions": [
+			"Water Park",
+			"Boat Tours",
+			"Scuba Diving"
+		],
+		"languagesSupported": [
+			"English",
+			"French",
+			"Spanish"
+		],
+		"userVerification": true
+	},
+	{
+		"id": "a15e9e2c-5325-4b52-83b9-c34cf34d9e29",
+		"name": "Cozy Log Cabin in the Mountains",
+		"address": "789 Mountain View Rd, Alpine Retreat, Countryland",
+		"description": "Unwind in this charming log cabin surrounded by breathtaking mountain views.",
+		"type": "Cabin",
+		"rentalType": "Building",
+		"areaType": "Mountains",
+		"guests": 6,
+		"bedrooms": 3,
+		"bathrooms": 2,
+		"amenities": [
+			"WiFi",
+			"Heating",
+			"Washing Machine",
+			"Fireplace",
+			"Hot Tub"
+		],
+		"parkingSpace": true,
+		"nearestShops": [
+			"Mountain Store"
+		],
+		"nearestEntertainment": [
+			"Hiking Trails",
+			"Ski Resort"
+		],
+		"additionalServices": [],
+		"price_per_night": 200,
+		"availability": {
+			"start_date": "2023-10-15",
+			"end_date": "2023-10-25"
+		},
+		"owner": {
+			"name": "David Anderson",
+			"email": "david.anderson@example.com",
+			"phone": "+9988776655"
+		},
+		"images": [
+			"https://plus.unsplash.com/premium_photo-1663091687045-d108c7fb83e4?q=80&w=2971&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"https://example.com/image2.jpg",
+			"https://example.com/image3.jpg"
+		],
+		"reviews": [],
+		"cancellationPolicy": "Moderate",
+		"minimumStayDuration": 3,
+		"checkInTime": "15:00",
+		"checkOutTime": "11:00",
+		"languagesSpoken": [
+			"English"
+		],
+		"petsAllowed": true,
+		"smokingPolicy": "Smoking allowed",
+		"accessibility": "Not wheelchair accessible",
+		"securityDeposit": 300,
+		"availableForEvents": true,
+		"childFriendly": true,
+		"nearestPublicTransportation": [],
+		"localAttractions": [
+			"Scenic Overlook",
+			"Sledding",
+			"Mountain Biking"
+		],
+		"languagesSupported": [
+			"English"
+		],
+		"userVerification": false
+	},
+	{
+		"id": "13e98ef6-100d-4a16-9d16-c6c4f6e5b998",
+		"name": "Rustic Farmhouse with Countryside Views",
+		"address": "456 Country Road, Farmville, Countryland",
+		"description": "Experience the rustic charm of this farmhouse with picturesque countryside views.",
+		"type": "Farmhouse",
+		"rentalType": "Building",
+		"areaType": "Countryside",
+		"guests": 10,
+		"bedrooms": 5,
+		"bathrooms": 4,
+		"amenities": [
+			"WiFi",
+			"Heating",
+			"Washing Machine",
+			"Garden",
+			"BBQ Grill"
+		],
+		"parkingSpace": true,
+		"nearestShops": [
+			"Farm Market",
+			"Country Store"
+		],
+		"nearestEntertainment": [
+			"Nature Walks",
+			"Fishing Spots"
+		],
+		"additionalServices": [
+			"Farm-to-Table Experience",
+			"Horse Riding"
+		],
+		"price_per_night": 300,
+		"availability": {
+			"start_date": "2023-11-01",
+			"end_date": "2023-11-10"
+		},
+		"owner": {
+			"name": "Jennifer Lee",
+			"email": "jennifer.lee@example.com",
+			"phone": "+7778889990"
+		},
+		"images": [
+			"https://images.unsplash.com/photo-1590520326731-ddeee2bfebf8?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"https://example.com/image2.jpg",
+			"https://example.com/image3.jpg"
+		],
+		"reviews": [],
+		"cancellationPolicy": "Flexible",
+		"minimumStayDuration": 4,
+		"checkInTime": "16:00",
+		"checkOutTime": "10:00",
+		"languagesSpoken": [
+			"English",
+			"Spanish"
+		],
+		"petsAllowed": true,
+		"smokingPolicy": "Smoking allowed",
+		"accessibility": "Not wheelchair accessible",
+		"securityDeposit": 400,
+		"availableForEvents": true,
+		"childFriendly": true,
+		"nearestPublicTransportation": [],
+		"localAttractions": [
+			"Farm Tours",
+			"Historic Sites"
+		],
+		"languagesSupported": [
+			"English",
+			"Spanish"
+		],
+		"userVerification": true
+	},
+	{
+		"id": "c6e31b28-9250-4713-9526-51d097a77bb7",
+		"name": "Beachfront Villa with Private Pool",
+		"address": "123 Ocean Drive, Seaside Paradise, Countryland",
+		"description": "Enjoy a luxurious beachfront vacation in this stunning villa with a private pool.",
+		"type": "Villa",
+		"rentalType": "Building",
+		"areaType": "Beach",
+		"guests": 8,
+		"bedrooms": 4,
+		"bathrooms": 3,
+		"amenities": [
+			"WiFi",
+			"Air Conditioning",
+			"Heating",
+			"Washing Machine",
+			"Private Pool",
+			"Ocean View",
+			"BBQ Grill"
+		],
+		"parkingSpace": true,
+		"nearestShops": [
+			"Beach Store",
+			"Grocery Shop",
+			"Souvenir Shop"
+		],
+		"nearestEntertainment": [
+			"Beach Bars",
+			"Water Sports"
+		],
+		"additionalServices": [
+			"Airport Pickup",
+			"Private Chef"
+		],
+		"price_per_night": 600,
+		"availability": {
+			"start_date": "2023-10-01",
+			"end_date": "2023-10-10"
+		},
+		"owner": {
+			"name": "Emily Roberts",
+			"email": "emily.roberts@example.com",
+			"phone": "+1122334455"
+		},
+		"images": [
+			"https://images.unsplash.com/photo-1710092821305-d01e36599c15?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"https://example.com/image2.jpg",
+			"https://example.com/image3.jpg"
+		],
+		"reviews": [],
+		"cancellationPolicy": "Strict",
+		"minimumStayDuration": 5,
+		"checkInTime": "14:00",
+		"checkOutTime": "10:00",
+		"languagesSpoken": [
+			"English",
+			"French",
+			"Spanish"
+		],
+		"petsAllowed": false,
+		"smokingPolicy": "No smoking allowed",
+		"accessibility": "Not wheelchair accessible",
+		"securityDeposit": 800,
+		"availableForEvents": false,
+		"childFriendly": true,
+		"nearestPublicTransportation": [
+			"Bus Stop - 0.5 miles"
+		],
+		"localAttractions": [
+			"Water Park",
+			"Boat Tours",
+			"Scuba Diving"
+		],
+		"languagesSupported": [
+			"English",
+			"French",
+			"Spanish"
+		],
+		"userVerification": true
+	},
+	{
+		"id": "a15e9e2c-5325-4b52-83b9-c34cf34d9e29",
+		"name": "Cozy Log Cabin in the Mountains",
+		"address": "789 Mountain View Rd, Alpine Retreat, Countryland",
+		"description": "Unwind in this charming log cabin surrounded by breathtaking mountain views.",
+		"type": "Cabin",
+		"rentalType": "Building",
+		"areaType": "Mountains",
+		"guests": 6,
+		"bedrooms": 3,
+		"bathrooms": 2,
+		"amenities": [
+			"WiFi",
+			"Heating",
+			"Washing Machine",
+			"Fireplace",
+			"Hot Tub"
+		],
+		"parkingSpace": true,
+		"nearestShops": [
+			"Mountain Store"
+		],
+		"nearestEntertainment": [
+			"Hiking Trails",
+			"Ski Resort"
+		],
+		"additionalServices": [],
+		"price_per_night": 200,
+		"availability": {
+			"start_date": "2023-10-15",
+			"end_date": "2023-10-25"
+		},
+		"owner": {
+			"name": "David Anderson",
+			"email": "david.anderson@example.com",
+			"phone": "+9988776655"
+		},
+		"images": [
+			"https://plus.unsplash.com/premium_photo-1663091687045-d108c7fb83e4?q=80&w=2971&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"https://example.com/image2.jpg",
+			"https://example.com/image3.jpg"
+		],
+		"reviews": [],
+		"cancellationPolicy": "Moderate",
+		"minimumStayDuration": 3,
+		"checkInTime": "15:00",
+		"checkOutTime": "11:00",
+		"languagesSpoken": [
+			"English"
+		],
+		"petsAllowed": true,
+		"smokingPolicy": "Smoking allowed",
+		"accessibility": "Not wheelchair accessible",
+		"securityDeposit": 300,
+		"availableForEvents": true,
+		"childFriendly": true,
+		"nearestPublicTransportation": [],
+		"localAttractions": [
+			"Scenic Overlook",
+			"Sledding",
+			"Mountain Biking"
+		],
+		"languagesSupported": [
+			"English"
+		],
+		"userVerification": false
+	},
+	{
+		"id": "13e98ef6-100d-4a16-9d16-c6c4f6e5b998",
+		"name": "Rustic Farmhouse with Countryside Views",
+		"address": "456 Country Road, Farmville, Countryland",
+		"description": "Experience the rustic charm of this farmhouse with picturesque countryside views.",
+		"type": "Farmhouse",
+		"rentalType": "Building",
+		"areaType": "Countryside",
+		"guests": 10,
+		"bedrooms": 5,
+		"bathrooms": 4,
+		"amenities": [
+			"WiFi",
+			"Heating",
+			"Washing Machine",
+			"Garden",
+			"BBQ Grill"
+		],
+		"parkingSpace": true,
+		"nearestShops": [
+			"Farm Market",
+			"Country Store"
+		],
+		"nearestEntertainment": [
+			"Nature Walks",
+			"Fishing Spots"
+		],
+		"additionalServices": [
+			"Farm-to-Table Experience",
+			"Horse Riding"
+		],
+		"price_per_night": 300,
+		"availability": {
+			"start_date": "2023-11-01",
+			"end_date": "2023-11-10"
+		},
+		"owner": {
+			"name": "Jennifer Lee",
+			"email": "jennifer.lee@example.com",
+			"phone": "+7778889990"
+		},
+		"images": [
+			"https://images.unsplash.com/photo-1590520326731-ddeee2bfebf8?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"https://example.com/image2.jpg",
+			"https://example.com/image3.jpg"
+		],
+		"reviews": [],
+		"cancellationPolicy": "Flexible",
+		"minimumStayDuration": 4,
+		"checkInTime": "16:00",
+		"checkOutTime": "10:00",
+		"languagesSpoken": [
+			"English",
+			"Spanish"
+		],
+		"petsAllowed": true,
+		"smokingPolicy": "Smoking allowed",
+		"accessibility": "Not wheelchair accessible",
+		"securityDeposit": 400,
+		"availableForEvents": true,
+		"childFriendly": true,
+		"nearestPublicTransportation": [],
+		"localAttractions": [
+			"Farm Tours",
+			"Historic Sites"
+		],
+		"languagesSupported": [
+			"English",
+			"Spanish"
+		],
+		"userVerification": true
+	},
+	{
+		"id": "c6e31b28-9250-4713-9526-51d097a77bb7",
+		"name": "Beachfront Villa with Private Pool",
+		"address": "123 Ocean Drive, Seaside Paradise, Countryland",
+		"description": "Enjoy a luxurious beachfront vacation in this stunning villa with a private pool.",
+		"type": "Villa",
+		"rentalType": "Building",
+		"areaType": "Beach",
+		"guests": 8,
+		"bedrooms": 4,
+		"bathrooms": 3,
+		"amenities": [
+			"WiFi",
+			"Air Conditioning",
+			"Heating",
+			"Washing Machine",
+			"Private Pool",
+			"Ocean View",
+			"BBQ Grill"
+		],
+		"parkingSpace": true,
+		"nearestShops": [
+			"Beach Store",
+			"Grocery Shop",
+			"Souvenir Shop"
+		],
+		"nearestEntertainment": [
+			"Beach Bars",
+			"Water Sports"
+		],
+		"additionalServices": [
+			"Airport Pickup",
+			"Private Chef"
+		],
+		"price_per_night": 600,
+		"availability": {
+			"start_date": "2023-10-01",
+			"end_date": "2023-10-10"
+		},
+		"owner": {
+			"name": "Emily Roberts",
+			"email": "emily.roberts@example.com",
+			"phone": "+1122334455"
+		},
+		"images": [
+			"https://images.unsplash.com/photo-1710092821305-d01e36599c15?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"https://example.com/image2.jpg",
+			"https://example.com/image3.jpg"
+		],
+		"reviews": [],
+		"cancellationPolicy": "Strict",
+		"minimumStayDuration": 5,
+		"checkInTime": "14:00",
+		"checkOutTime": "10:00",
+		"languagesSpoken": [
+			"English",
+			"French",
+			"Spanish"
+		],
+		"petsAllowed": false,
+		"smokingPolicy": "No smoking allowed",
+		"accessibility": "Not wheelchair accessible",
+		"securityDeposit": 800,
+		"availableForEvents": false,
+		"childFriendly": true,
+		"nearestPublicTransportation": [
+			"Bus Stop - 0.5 miles"
+		],
+		"localAttractions": [
+			"Water Park",
+			"Boat Tours",
+			"Scuba Diving"
+		],
+		"languagesSupported": [
+			"English",
+			"French",
+			"Spanish"
+		],
+		"userVerification": true
+	},
+	{
+		"id": "a15e9e2c-5325-4b52-83b9-c34cf34d9e29",
+		"name": "Cozy Log Cabin in the Mountains",
+		"address": "789 Mountain View Rd, Alpine Retreat, Countryland",
+		"description": "Unwind in this charming log cabin surrounded by breathtaking mountain views.",
+		"type": "Cabin",
+		"rentalType": "Building",
+		"areaType": "Mountains",
+		"guests": 6,
+		"bedrooms": 3,
+		"bathrooms": 2,
+		"amenities": [
+			"WiFi",
+			"Heating",
+			"Washing Machine",
+			"Fireplace",
+			"Hot Tub"
+		],
+		"parkingSpace": true,
+		"nearestShops": [
+			"Mountain Store"
+		],
+		"nearestEntertainment": [
+			"Hiking Trails",
+			"Ski Resort"
+		],
+		"additionalServices": [],
+		"price_per_night": 200,
+		"availability": {
+			"start_date": "2023-10-15",
+			"end_date": "2023-10-25"
+		},
+		"owner": {
+			"name": "David Anderson",
+			"email": "david.anderson@example.com",
+			"phone": "+9988776655"
+		},
+		"images": [
+			"https://plus.unsplash.com/premium_photo-1663091687045-d108c7fb83e4?q=80&w=2971&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"https://example.com/image2.jpg",
+			"https://example.com/image3.jpg"
+		],
+		"reviews": [],
+		"cancellationPolicy": "Moderate",
+		"minimumStayDuration": 3,
+		"checkInTime": "15:00",
+		"checkOutTime": "11:00",
+		"languagesSpoken": [
+			"English"
+		],
+		"petsAllowed": true,
+		"smokingPolicy": "Smoking allowed",
+		"accessibility": "Not wheelchair accessible",
+		"securityDeposit": 300,
+		"availableForEvents": true,
+		"childFriendly": true,
+		"nearestPublicTransportation": [],
+		"localAttractions": [
+			"Scenic Overlook",
+			"Sledding",
+			"Mountain Biking"
+		],
+		"languagesSupported": [
+			"English"
+		],
+		"userVerification": false
+	},
+	{
+		"id": "13e98ef6-100d-4a16-9d16-c6c4f6e5b998",
+		"name": "Rustic Farmhouse with Countryside Views",
+		"address": "456 Country Road, Farmville, Countryland",
+		"description": "Experience the rustic charm of this farmhouse with picturesque countryside views.",
+		"type": "Farmhouse",
+		"rentalType": "Building",
+		"areaType": "Countryside",
+		"guests": 10,
+		"bedrooms": 5,
+		"bathrooms": 4,
+		"amenities": [
+			"WiFi",
+			"Heating",
+			"Washing Machine",
+			"Garden",
+			"BBQ Grill"
+		],
+		"parkingSpace": true,
+		"nearestShops": [
+			"Farm Market",
+			"Country Store"
+		],
+		"nearestEntertainment": [
+			"Nature Walks",
+			"Fishing Spots"
+		],
+		"additionalServices": [
+			"Farm-to-Table Experience",
+			"Horse Riding"
+		],
+		"price_per_night": 300,
+		"availability": {
+			"start_date": "2023-11-01",
+			"end_date": "2023-11-10"
+		},
+		"owner": {
+			"name": "Jennifer Lee",
+			"email": "jennifer.lee@example.com",
+			"phone": "+7778889990"
+		},
+		"images": [
+			"https://images.unsplash.com/photo-1590520326731-ddeee2bfebf8?q=80&w=3174&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+			"https://example.com/image2.jpg",
+			"https://example.com/image3.jpg"
+		],
+		"reviews": [],
+		"cancellationPolicy": "Flexible",
+		"minimumStayDuration": 4,
+		"checkInTime": "16:00",
+		"checkOutTime": "10:00",
+		"languagesSpoken": [
+			"English",
+			"Spanish"
+		],
+		"petsAllowed": true,
+		"smokingPolicy": "Smoking allowed",
+		"accessibility": "Not wheelchair accessible",
+		"securityDeposit": 400,
+		"availableForEvents": true,
+		"childFriendly": true,
+		"nearestPublicTransportation": [],
+		"localAttractions": [
+			"Farm Tours",
+			"Historic Sites"
+		],
+		"languagesSupported": [
+			"English",
+			"Spanish"
+		],
+		"userVerification": true
+	}
+	
+	
+]
