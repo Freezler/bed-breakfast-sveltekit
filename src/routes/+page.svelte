@@ -22,7 +22,7 @@
 </script>
 
 <div
-	class="duration-900 duration-00 fixed bottom-24 left-0 right-0 mx-auto grid min-w-[80vw] max-w-[100vw] place-items-center items-center justify-center rounded-md bg-[#efc7c7a2] py-2 pl-4 pr-4 text-center"
+	class="duration-900 duration-00 fixed bottom-0 left-0 right-0 mx-auto grid min-w-[80vw] max-w-[100vw] place-items-center items-center justify-center rounded-md bg-[#efc7c7a2] py-2 pl-4 pr-4 text-center"
 >
 	<h1 class="text-md mb-2 text-pretty font-semibold leading-4">Randy de Vries | 2024</h1>
 	<p class="min-w-[40vw] text-pretty rounded-md bg-[#f1f1f1] px-6 py-4 text-center text-sm">
