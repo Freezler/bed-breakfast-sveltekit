@@ -7,7 +7,7 @@
 		const fixed = document.querySelector('.fixed');
 		const hideOnScroll = () => {
 			if (window.scrollY < 200 && fixed != null) {
-				fixed.style.display = '';
+				fixed.style.display = 'block';
 				fixed.classList.remove('fade-out'); // Remove fade-out class if present
 				fixed.classList.add('fade-in'); // Add fade-in class to fade in
 			} else {
@@ -48,6 +48,7 @@
 	@keyframes fade-out {
 		from {
 			opacity: 1;
+			tra
 		}
 		to {
 			opacity: 0;

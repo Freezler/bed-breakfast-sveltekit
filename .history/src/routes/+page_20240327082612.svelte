@@ -7,7 +7,7 @@
 		const fixed = document.querySelector('.fixed');
 		const hideOnScroll = () => {
 			if (window.scrollY < 200 && fixed != null) {
-				fixed.style.display = '';
+				fixed.style.display = 'flex';
 				fixed.classList.remove('fade-out'); // Remove fade-out class if present
 				fixed.classList.add('fade-in'); // Add fade-in class to fade in
 			} else {
@@ -38,7 +38,7 @@
 	@keyframes fade-in {
 		from {
 			opacity: 0;
-			transform: translateY(200px);
+			transform: translateY(-200px);
 		}
 		to {
 			opacity: 1;

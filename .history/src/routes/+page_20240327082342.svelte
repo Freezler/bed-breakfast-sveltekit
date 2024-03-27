@@ -7,14 +7,11 @@
 		const fixed = document.querySelector('.fixed');
 		const hideOnScroll = () => {
 			if (window.scrollY < 200 && fixed != null) {
-				fixed.style.display = '';
-				fixed.classList.remove('fade-out'); // Remove fade-out class if present
-				fixed.classList.add('fade-in'); // Add fade-in class to fade in
+				fixed.classList.toggle('fade-in'); // Add fade-in class to fade in
 			} else {
-				if (fixed == null) return;
-				fixed.style.display = 'none';
-				fixed.classList.remove('fade-in'); // Remove fade-in class if present
-				fixed.classList.add('fade-out'); // Add fade-out class to fade out
+		
+
+				fixed.classList.toggle('fade-out'); // Add fade-out class to fade out
 			}
 		};
 		window.addEventListener('scroll', hideOnScroll);
@@ -38,7 +35,6 @@
 	@keyframes fade-in {
 		from {
 			opacity: 0;
-			transform: translateY(200px);
 		}
 		to {
 			opacity: 1;

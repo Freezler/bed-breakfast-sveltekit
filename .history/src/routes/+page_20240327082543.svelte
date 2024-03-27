@@ -1,24 +1,24 @@
 <script>
-	import { onMount } from 'svelte';
+    import { onMount } from 'svelte';
 
-	onMount(() => {
-		if (typeof document === 'undefined') return; // Check if running in SSR
+    onMount(() => {
+        if (typeof document === 'undefined') return; // Check if running in SSR
 
-		const fixed = document.querySelector('.fixed');
-		const hideOnScroll = () => {
-			if (window.scrollY < 200 && fixed != null) {
-				fixed.style.display = '';
-				fixed.classList.remove('fade-out'); // Remove fade-out class if present
-				fixed.classList.add('fade-in'); // Add fade-in class to fade in
-			} else {
-				if (fixed == null) return;
-				fixed.style.display = 'none';
-				fixed.classList.remove('fade-in'); // Remove fade-in class if present
-				fixed.classList.add('fade-out'); // Add fade-out class to fade out
-			}
-		};
-		window.addEventListener('scroll', hideOnScroll);
-	});
+        const fixed = document.querySelector('.fixed');
+        const hideOnScroll = () => {
+    if (window.scrollY < 200 && fixed != null) {
+        fixed.style.display = 'flex';
+        fixed.classList.remove('fade-out'); // Remove fade-out class if present
+        fixed.classList.add('fade-in'); // Add fade-in class to fade in
+    } else {
+        if (fixed == null) return;
+        fixed.style.display = 'none';
+        fixed.classList.remove('fade-in'); // Remove fade-in class if present
+        fixed.classList.add('fade-out'); // Add fade-out class to fade out
+    }
+};
+        window.addEventListener('scroll', hideOnScroll);
+    });
 </script>
 
 <div
@@ -38,7 +38,7 @@
 	@keyframes fade-in {
 		from {
 			opacity: 0;
-			transform: translateY(200px);
+			tra
 		}
 		to {
 			opacity: 1;

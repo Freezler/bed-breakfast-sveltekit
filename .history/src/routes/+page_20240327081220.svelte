@@ -7,12 +7,10 @@
 		const fixed = document.querySelector('.fixed');
 		const hideOnScroll = () => {
 			if (window.scrollY < 200 && fixed != null) {
-				fixed.style.display = '';
 				fixed.classList.remove('fade-out'); // Remove fade-out class if present
 				fixed.classList.add('fade-in'); // Add fade-in class to fade in
 			} else {
 				if (fixed == null) return;
-				fixed.style.display = 'none';
 				fixed.classList.remove('fade-in'); // Remove fade-in class if present
 				fixed.classList.add('fade-out'); // Add fade-out class to fade out
 			}
@@ -38,7 +36,6 @@
 	@keyframes fade-in {
 		from {
 			opacity: 0;
-			transform: translateY(200px);
 		}
 		to {
 			opacity: 1;
@@ -54,8 +51,11 @@
 		}
 	}
 
-	.fixed {
-		animation: fade-in 1.5s; /* Adjust the duration as needed */
-		animation: fade-out 1.5s timing-function delay iteration-count direction fill-mode;
+	.fixed.fade-in {
+		animation: fade-in 0.5s ease-in-out; /* Adjust the duration as needed */
+	}
+
+	.fade-out {
+		animation: fade-out 0.5s ease-in-out; /* Adjust the duration as needed */
 	}
 </style>
