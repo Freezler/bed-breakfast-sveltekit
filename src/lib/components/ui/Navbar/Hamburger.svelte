@@ -1,27 +1,30 @@
 <script>
-	let open = false;
+  import autoAnimate from '@formkit/auto-animate'
+  import { cn } from '$lib/utils'
+
+  let open = false
+
+  let className = ''
+
+  export { className as class }
 </script>
 
 <button
-	class="group relative left-0 translate-x-[4px] flex h-[48px] w-[50px] rounded-lg text-[var(--navText)] md:hidden"
+  use:autoAnimate={{ duration: 100 }}
+  class={cn('inline-flex items-center justify-center p-4', className ?? '')}
+  on:click={() => (open = !open)}
 >
-	<div id="">
-		<span
-			class="absolute left-1/2 top-[38%] h-[2px] w-[24px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gray-500 transition-all duration-300 group-active:w-[26px] group-active:translate-y-[6px] group-active:rotate-45"
-		></span>
-		<span
-			class="absolute left-1/2 top-[50%] h-[2px] w-[24px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-gray-500 transition-all duration-700 group-active:translate-y-[0.1px] group-active:opacity-0"
-		></span>
-		<span
-			class="absolute left-1/2 top-[62%] h-[2px] w-[24px] -translate-x-1/2 -translate-y-[50%] rounded-full bg-gray-500 transition-all duration-300 group-active:w-[26px] group-active:-translate-y-[6px] group-active:-rotate-45"
-		></span>
-	</div>
+  {#if !open}
+    <span class='icon-[ph--list]' />
+  {:else}
+    <span class='icon-[ph--x]' />
+  {/if}
 </button>
 
 <style>
-	:root {
-		--navText: hsla(220, 86%, 3%, 0.859);
-		--navBg: transparent;
-		--logoText: #ff385c;
-	}
+  :root {
+    --navText: hsla(220, 86%, 3%, 0.859);
+    --navBg: transparent;
+    --logoText: #ff385c;
+  }
 </style>

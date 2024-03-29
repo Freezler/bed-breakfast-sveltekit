@@ -69,12 +69,9 @@ Use a database (Firebase, MongoDB, etc.) to store user information and calendar 
 - Create signup and login pages.
 - Set up authentication state management.
 
-
 ## Members
 
 Create pages to add and manage members.
-
-
 
 ## Event Categories and Creation
 
@@ -97,6 +94,4 @@ Ensure your app looks good on various screen sizes.
 Test your application thoroughly.
 Deploy your app to a hosting service like Vercel, Netlify, or Firebase Hosting.
 
-
 ## README.md
-
