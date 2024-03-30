@@ -16,6 +16,11 @@ const config = {
       },
     },
     extend: {
+
+      backgroundImage: {
+        'avatar': "url('xsgames.co/randomusers/avatar.php?g=male')",
+      },
+
       colors: {
         border: 'hsl(var(--border) / <alpha-value>)',
         input: 'hsl(var(--input) / <alpha-value>)',

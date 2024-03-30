@@ -8,7 +8,7 @@
 
 <nav class='z-10 w-screen h-20 px-4 bg-transparent md:px-6'>
   <div class='flex items-center justify-between h-full max-w-full'>
-    <Logo class=""/>
+    <Logo />
     <NavItems />
     <div>
       <Avatar class='hidden md:flex' />

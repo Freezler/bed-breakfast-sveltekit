@@ -3,7 +3,6 @@
   import { cn } from '$lib/utils'
 
   let open = false
-
   let className = ''
 
   export { className as class }

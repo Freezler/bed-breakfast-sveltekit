@@ -2,12 +2,13 @@
   import { Avatar as AvatarPrimitive } from 'bits-ui'
   import { cn } from '$lib/utils.js'
 
-  type $$Props = AvatarPrimitive.ImageProps
-
+  type $$Props = AvatarPrimitive.ImageProps | any
   let className: $$Props['class']
   export let src: $$Props['src']
+
   export let alt: $$Props['alt']
   export { className as class }
+
 </script>
 
 <AvatarPrimitive.Image

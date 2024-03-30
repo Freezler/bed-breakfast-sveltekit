@@ -2,14 +2,14 @@
   import { Avatar as AvatarPrimitive } from 'bits-ui'
   import { cn } from '$lib/utils.js'
 
-  type $$Props = AvatarPrimitive.FallbackProps
+  type $$Props = AvatarPrimitive.FallbackProps | any
 
   let className: $$Props['class']
   export { className as class }
 </script>
 
 <AvatarPrimitive.Fallback
-  class={cn('flex h-full w-full items-center justify-center rounded-full bg-muted', className)}
+  class={cn('flex h-full w-full items-center justify-center rounded-full', className)}
   {...$$restProps}
 >
   <slot />
